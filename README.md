@@ -7,7 +7,7 @@ every 15 seconds on October 15, 2018. It's 230 MB of raw, unprocessed open data.
 Your challenge is to make something useful for San Franciscans with it.
 
 To give you a taste of how the open data analysis process goes, we'll be giving snapshots
-of our data at 3 stages in the analysis process: totally raw, processed, then improved.
+of our data at 3 stages in the analysis process: totally raw, somewhat cleaned, then processed.
 Choose a stage and try to improve upon our work!
 
 At the end of the day, we encourage you to make a pull request with your code,
@@ -20,14 +20,36 @@ and the code we've written so far to get the data to the next stage.
 
 Can you come up with better algorithms and visualizations than us?
 
-## Challenge 1: Calculating bus stops
+## Challenge 1: Interpolation
 
-Our raw data -- the location of each bus at each point in time -- isn't terribly
-useful by itself. Our first task was to turn this raw data into a dataset of when
-each bus reached each stop (e.g. when did bus #123 on route 14 reach 9th & Market?)
+The big problem with our raw data is that it's pretty coarse: we can only get
+each bus's location every 15 seconds. To enable smoother tracking, mapping,
+and predicting, we want to interpolate where buses were between those 15-second
+intervals -- say, every 5 seconds.
+
+To help you simulate this, we'll give you a version of our raw data file
+that only gathers data at 30-second intervals and challenge you to make an
+algorithm that interpolates the bus's location every 15 seconds. Then you can
+compare your results to our *actual* data file, which tracks buses' real
+locations every 15 seconds. If your algorithm predicts the 15-second locations well,
+we'll use it on our actual data file to compute where the bus was every 5 seconds.
+
+## Challenge 2: Bus Stop Computation
+
+Even when cleaned, our raw data -- the location of each bus at each point in time
+-- isn't terribly useful by itself. Our next task was to turn this raw data into
+a dataset of when each bus reached each stop (e.g. when did bus #123 on route 14
+reach 9th & Market?)
 
 We've developed a processing algorithm to calculate the bus stops, but we challenge
 you to do better. You'll have access to the 230 MB of raw data and our algorithm.
 Can you find a better way to compute stops?
 
-> Note:
+> Note: our algorithm takes a while to run, and yours probably will too.
+> Be warned that this challenge will take a while just because of how
+> much data there is.
+
+## Challenge 3: Metrics & Visualization
+
+Our final challenge is to turn our processed data into useful visualizations for
+San Franciscans.
