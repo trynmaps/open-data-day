@@ -45,11 +45,25 @@ We've developed a processing algorithm to calculate the bus stops, but we challe
 you to do better. You'll have access to the 230 MB of raw data and our algorithm.
 Can you find a better way to compute stops?
 
-> Note: our algorithm takes a while to run, and yours probably will too.
-> Be warned that this challenge will take a while just because of how
-> much data there is.
+> Note: The 230 MB file takes a while to process. Check out the light file
+> we've included instead for a subset of the data that is smaller and faster
+> to process.
 
 ## Challenge 3: Metrics & Visualization
 
-Our final challenge is to turn our processed data into useful visualizations for
-San Franciscans.
+Our final challenge is to turn our processed data into useful metrics and
+visualizations for San Franciscans.
+
+So far, we've started computing and graphing wait time and travel time
+for each line, brokend down by day of week and time of day. Can you find
+other useful metrics and visualize it in interesting ways -- perhaps
+drawing in geographic or economic data, or making it interactive?
+
+# Getting Started
+
+Fork this repository and choose the folder that corresponds to the challenge you want
+to tackle. Each folder will contain the full 230 MB dataset, a light version that
+includes a subset of the data, and a Jupyter notebook with our reference implementation
+of the code.
+
+You can create your own 
