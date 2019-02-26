@@ -66,4 +66,14 @@ to tackle. Each folder will contain the full 230 MB dataset, a light version tha
 includes a subset of the data, and a Jupyter notebook with our reference implementation
 of the code.
 
-You can create your own 
+We suggest installing [Anaconda](https://www.anaconda.com/distribution/) to get iPython
+on your machine.
+
+Then clone this repository and `cd` into it. Then run `jupyter notebook` in your terminal
+to browse, run, and play with our interactive Python notebooks.
+
+# Submission
+
+If you want our project to use your code, just make a pull request of your fork! We'll
+review it and incorporate the best submissions into our
+[prototype](https://github.com/trynmaps/metrics-mvp).
