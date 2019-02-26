@@ -23,4 +23,11 @@ Can you come up with better algorithms and visualizations than us?
 ## Challenge 1: Calculating bus stops
 
 Our raw data -- the location of each bus at each point in time -- isn't terribly
-useful by itself. Our first task was to turn this raw data into 
+useful by itself. Our first task was to turn this raw data into a dataset of when
+each bus reached each stop (e.g. when did bus #123 on route 14 reach 9th & Market?)
+
+We've developed a processing algorithm to calculate the bus stops, but we challenge
+you to do better. You'll have access to the 230 MB of raw data and our algorithm.
+Can you find a better way to compute stops?
+
+> Note:
