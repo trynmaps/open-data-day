@@ -34,6 +34,8 @@ compare your results to our *actual* data file, which tracks buses' real
 locations every 15 seconds. If your algorithm predicts the 15-second locations well,
 we'll use it on our actual data file to compute where the bus was every 5 seconds.
 
+[Check out this folder](/interpolation) to get started.
+
 ## Challenge 2: Bus Stop Computation
 
 Even when cleaned, our raw data -- the location of each bus at each point in time
@@ -49,6 +51,8 @@ Can you find a better way to compute stops?
 > we've included instead for a subset of the data that is smaller and faster
 > to process.
 
+[Check out this folder](/stop-computation) to get started.
+
 ## Challenge 3: Metrics & Visualization
 
 Our final challenge is to turn our processed data into useful metrics and
@@ -58,6 +62,8 @@ So far, we've started computing and graphing wait time and travel time
 for each line, brokend down by day of week and time of day. Can you find
 other useful metrics and visualize it in interesting ways -- perhaps
 drawing in geographic or economic data, or making it interactive?
+
+[Check out this folder](/visualization) to get started.
 
 # Getting Started
 
