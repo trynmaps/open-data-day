@@ -7,10 +7,20 @@ every 15 seconds on October 15, 2018. It's 230 MB of raw, unprocessed open data.
 Your challenge is to make something useful for San Franciscans with it.
 
 To give you a taste of how the open data analysis process goes, we'll be giving snapshots
-of our data at 3 stages in the process. You'll have three different challenges you can
-take on, and we challenge you to improve upon the work we've done.
+of our data at 3 stages in the analysis process: totally raw, processed, then improved.
+Choose a stage and try to improve upon our work!
+
+At the end of the day, we encourage you to make a pull request with your code,
+and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
+
+# The challenges
+
+We have a separate challenge for each stage. We'll give you the data for that stage
+and the code we've written so far to get the data to the next stage.
+
+Can you come up with better algorithms and visualizations than us?
 
 ## Challenge 1: Calculating bus stops
 
 Our raw data -- the location of each bus at each point in time -- isn't terribly
-useful by itself.
+useful by itself. Our first task was to turn this raw data into 
