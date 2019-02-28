@@ -72,19 +72,7 @@ open data portals.
 
 To get started with this challenge, check out the [3-visualization](3-visualization) folder.
 
-## Challenge 3: Metrics & Visualization
-
-Our final challenge is to turn our processed data into useful metrics and
-visualizations for San Franciscans.
-
-So far, we've started computing and graphing wait time and travel time
-for each line, brokend down by day of week and time of day. Can you find
-other useful metrics and visualize it in interesting ways -- perhaps
-drawing in geographic or economic data, or making it interactive?
-
-[Check out this folder](/visualization) to get started.
-
-# Getting Started
+# Getting ready to code
 
 Fork this repository and choose the folder that corresponds to the challenge you want
 to tackle. Each folder will contain the full 230 MB dataset, a light version that
