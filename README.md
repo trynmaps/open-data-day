@@ -1,8 +1,11 @@
 # [OpenTransit](http://opentransit.city/) x [Open Data Day 2019](https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2019-tickets-56291530483)
 
 Welcome to Open Data Day 2019! Today, we're going to give you a full day's worth of raw
-data about the buses in San Francisco -- you'll know where every bus in the city was
-every 15 seconds on October 15, 2018. It's 230 MB of raw, unprocessed open data.
+data about the buses in San Francisco -- you'll have the raw, unprocessed open data for the following following:
+
+1) Route #'14' json data for one week from January 14th - January 20th 2019. 
+2) Route #'14' json data for october 15th 
+3) Route #'1' json data for october 15th 
 
 Your challenge is to make something useful for San Franciscans with it.
 
