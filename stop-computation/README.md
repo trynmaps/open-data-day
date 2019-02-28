@@ -1,1 +1,1 @@
-# Challenge 2: Bus Stop Computation
+# Challenge 1: Bus Stop Computation

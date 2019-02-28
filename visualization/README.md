@@ -1,1 +1,1 @@
-# Challenge 3: Metrics & Visualization
+# Challenge 3: Visualization
