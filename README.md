@@ -18,8 +18,24 @@ with the data.
 At the end of the day, we encourage you to make a pull request with your code,
 and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
 
+# Challenge 1: Processing
 
+We've gathered raw data on where every Muni bus has been every 15 seconds for
+over a year. Our first challenge was to convert this raw data into "arrival
+times" -- so we could know when each bus reached each stop. Only then
+could we start making interesting analyses and visualizations.
 
+In this challenge, we'll give you a subset of our raw GPS data (we gather 230 MB
+of data a day, so for simplicity's sake we're only giving you a few routes'
+data). We'll also give you an example of our algorithm, which we call the "eclipses"
+algorithm, that we use to calculate arrival times.
+
+Your job is to make a better version of our arrival-time algorithm than the
+"eclipses" algorithm.
+
+To get started with this challenge, check out the [1-processing](1-processing) folder.
+
+# HERE BE DRAGONS
 
 
 Today, we're going to give you raw GPS data for Muni buses. We'll tell you where every single Route 1 and 14 bus
