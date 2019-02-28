@@ -1,11 +1,11 @@
 # [OpenTransit](http://opentransit.city/) x [Open Data Day 2019](https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2019-tickets-56291530483)
 
 Welcome to Open Data Day 2019! Today, we're going to give you a full day's worth of raw
-data about the buses in San Francisco -- you'll have the raw, unprocessed open data for the following:
+data about the buses in San Francisco -- you'll have the raw, unprocessed open GPS data of MUNI for the following:
 
-1) Route #'14' json data for one week from January 14th - January 20th 2019. 
-2) Route #'14' json data for october 15th 
-3) Route #'1' json data for october 15th 
+1) Route #14 json data for one week from January 14th - January 20th 2019. 
+2) Route #14 json data for october 15th 
+3) Route #1 json data for october 15th 
 
 Your challenge is to make something useful for San Franciscans with it.
 
