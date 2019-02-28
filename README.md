@@ -1,11 +1,36 @@
 # [OpenTransit](http://opentransit.city/) x [Open Data Day 2019](https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2019-tickets-56291530483)
 
-Welcome to Open Data Day 2019! Today, we're going to give you a full day's worth of raw
+Welcome to Open Data Day 2019!
+
+Today, we're going to give you raw and processed GPS data for Muni buses
+in San Francisco.
+
+Your challenge is to clean, analyze, and/or visualize that data and build
+something useful for San Franciscans.
+
+# The challenges
+
+We have three challenges for you today, each one very similar to a challenge
+our team of coders and analysts has had to tackle. For each, we'll give you
+data to work with and sample code. Your job is to build something great
+with the data.
+
+At the end of the day, we encourage you to make a pull request with your code,
+and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
+
+
+
+
+
+Today, we're going to give you raw GPS data for Muni buses. We'll tell you where every single Route 1 and 14 bus
+was every 15 seconds on October 15th, and we'll tell you where
+
+Today, we're going to give you a full day's worth of raw
 data about the buses in San Francisco -- you'll have the raw, unprocessed open GPS data of MUNI for the following:
 
-1) Route #14 json data for one week from January 14th - January 20th 2019. 
-2) Route #14 json data for october 15th 
-3) Route #1 json data for october 15th 
+1) Route #14 json data for one week from January 14th - January 20th 2019.
+2) Route #14 json data for october 15th
+3) Route #1 json data for october 15th
 
 Your challenge is to make something useful for San Franciscans with it.
 
@@ -13,9 +38,6 @@ To give you a taste of the open data analysis process, we'll be giving you 3 cha
 very similar to the challenges our team of analysts and coders has had to face.
 In each challenge, we'll give you a sample of our data and some sample code
 we've written to process, analyze, or visualize it. What can you build?
-
-At the end of the day, we encourage you to make a pull request with your code,
-and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
 
 # The challenges
 
