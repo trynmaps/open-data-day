@@ -35,65 +35,42 @@ Your job is to make a better version of our arrival-time algorithm than the
 
 To get started with this challenge, check out the [1-processing](1-processing) folder.
 
-# HERE BE DRAGONS
+# Challenge 2: Analysis
 
+Once we had computed the arrival times, we needed to start analyzing the
+processed data to extract useful transit metrics.
 
-Today, we're going to give you raw GPS data for Muni buses. We'll tell you where every single Route 1 and 14 bus
-was every 15 seconds on October 15th, and we'll tell you where
+In this challenge, we'll give you a sample of our pre-processed data, which shows
+when each bus reached each stop (e.g. bus #123 on route #1 reached stop #456
+at 3:45pm). The metrics we've calculated so far include average waiting time
+at a given stop and average transit time between two stops.
 
-Today, we're going to give you a full day's worth of raw
-data about the buses in San Francisco -- you'll have the raw, unprocessed open GPS data of MUNI for the following:
+Can you think up some more interesting metrics or find some interesting
+patterns? Some questions you could try answering:
 
-1) Route #14 json data for one week from January 14th - January 20th 2019.
-2) Route #14 json data for october 15th
-3) Route #1 json data for october 15th
+- At which time of the day are buses the latest?
+- At which time of the day are buses the slowest?
+- On which days of the week are buses faster or slower than average?
+- When does there seem to be the most traffic?
+- Did the bus ever take a detour or miss a stop?
 
-Your challenge is to make something useful for San Franciscans with it.
+To get started with this challenge, check out the [2-analysis](2-analysis) folder.
 
-To give you a taste of the open data analysis process, we'll be giving you 3 challenges
-very similar to the challenges our team of analysts and coders has had to face.
-In each challenge, we'll give you a sample of our data and some sample code
-we've written to process, analyze, or visualize it. What can you build?
+# Challenge 3: Visualization
 
-# The challenges
+The final challenge is to turn our data and metrics
+and present them in a useful, informative way.
 
-We have a separate challenge for each stage. We'll give you the data for that stage
-and the code we've written so far to get the data to the next stage.
+We'll give you the raw GPS data and our processed arrival time
+data, as well as a sample Jupyter notebook with some demo
+visualizations.
 
-Can you come up with better algorithms and visualizations than us?
+What's the coolest and most interesting visualization you can
+make? For an added challenge, try adding in geographic, traffic,
+or economic data, which you might be able to get from other
+open data portals.
 
-## Challenge 1: Interpolation
-
-The big problem with our raw data is that it's pretty coarse: we can only get
-each bus's location every 15 seconds. To enable smoother tracking, mapping,
-and predicting, we want to interpolate where buses were between those 15-second
-intervals -- say, every 5 seconds.
-
-To help you simulate this, we'll give you a version of our raw data file
-that only gathers data at 30-second intervals and challenge you to make an
-algorithm that interpolates the bus's location every 15 seconds. Then you can
-compare your results to our *actual* data file, which tracks buses' real
-locations every 15 seconds. If your algorithm predicts the 15-second locations well,
-we'll use it on our actual data file to compute where the bus was every 5 seconds.
-
-[Check out this folder](/interpolation) to get started.
-
-## Challenge 2: Bus Stop Computation
-
-Even when cleaned, our raw data -- the location of each bus at each point in time
--- isn't terribly useful by itself. Our next task was to turn this raw data into
-a dataset of when each bus reached each stop (e.g. when did bus #123 on route 14
-reach 9th & Market?)
-
-We've developed a processing algorithm to calculate the bus stops, but we challenge
-you to do better. You'll have access to the 230 MB of raw data and our algorithm.
-Can you find a better way to compute stops?
-
-> Note: The 230 MB file takes a while to process. Check out the light file
-> we've included instead for a subset of the data that is smaller and faster
-> to process.
-
-[Check out this folder](/stop-computation) to get started.
+To get started with this challenge, check out the [3-visualization](3-visualization) folder.
 
 ## Challenge 3: Metrics & Visualization
 
