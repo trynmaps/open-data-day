@@ -6,9 +6,10 @@ every 15 seconds on October 15, 2018. It's 230 MB of raw, unprocessed open data.
 
 Your challenge is to make something useful for San Franciscans with it.
 
-To give you a taste of how the open data analysis process goes, we'll be giving snapshots
-of our data at 3 stages in the analysis process: totally raw, somewhat cleaned, then processed.
-Choose a stage and try to improve upon our work!
+To give you a taste of the open data analysis process, we'll be giving you 3 challenges
+very similar to the challenges our team of analysts and coders has had to face.
+In each challenge, we'll give you a sample of our data and some sample code
+we've written to process, analyze, or visualize it. What can you build?
 
 At the end of the day, we encourage you to make a pull request with your code,
 and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
