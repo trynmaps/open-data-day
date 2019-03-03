@@ -6,7 +6,8 @@ Today, we're going to give you raw and processed GPS data for Muni buses
 in San Francisco.
 
 Your challenge is to clean, analyze, and/or visualize that data and build
-something useful for San Franciscans.
+something useful for San Franciscans. And, along the way, we hope you'll
+learn how the whole open data analysis process works
 
 # The challenges
 
@@ -18,24 +19,27 @@ with the data.
 At the end of the day, we encourage you to make a pull request with your code,
 and we'll incorporate the best code into the [data visualization prototype we're building](https://github.com/trynmaps/metrics-mvp).
 
-# Challenge 1: Processing
+## Challenge 1: Processing
 
 We've gathered raw data on where every Muni bus has been every 15 seconds for
-over a year. Our first challenge was to convert this raw data into "arrival
+over a year. This piles up to over 230 MB of data a day.
+
+Our first challenge was to convert this raw data into "arrival
 times" -- so we could know when each bus reached each stop. Only then
 could we start making interesting analyses and visualizations.
 
-In this challenge, we'll give you a subset of our raw GPS data (we gather 230 MB
-of data a day, so for simplicity's sake we're only giving you a few routes'
-data). We'll also give you an example of our algorithm, which we call the "eclipses"
-algorithm, that we use to calculate arrival times.
+In this challenge, we'll give you a subset of our raw GPS data for a day
+(trust us, analyzing all 230 MB of data takes way too long).
+We'll also give you an example of the algorithm we use to calculate arrival times,
+which we call the "eclipses" algotithm.
 
 Your job is to make a better version of our arrival-time algorithm than the
-"eclipses" algorithm.
+"eclipses" algorithm. We'll give you the raw data and our example code --
+can you get better outputs?
 
 To get started with this challenge, check out the [1-processing](1-processing) folder.
 
-# Challenge 2: Analysis
+## Challenge 2: Analysis
 
 Once we had computed the arrival times, we needed to start analyzing the
 processed data to extract useful transit metrics.
@@ -56,7 +60,7 @@ patterns? Some questions you could try answering:
 
 To get started with this challenge, check out the [2-analysis](2-analysis) folder.
 
-# Challenge 3: Visualization
+## Challenge 3: Visualization
 
 The final challenge is to turn our data and metrics
 and present them in a useful, informative way.
@@ -71,6 +75,17 @@ or economic data, which you might be able to get from other
 open data portals.
 
 To get started with this challenge, check out the [3-visualization](3-visualization) folder.
+
+## Which challenge should I do?
+
+If you love data science and algorithms, or want to dig deep into iPython 
+notebooks, try Challenge 1.
+
+If you enjoy statistical analysis and want to draw in geographic, economic,
+or other datasets, try Challenge 2.
+
+If you like graphs, want to make user-facing products, or want to try your hand at React
+and D3, try Challenge 3.
 
 # Getting ready to code
 
