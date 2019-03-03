@@ -97,4 +97,4 @@ review it and incorporate the best submissions into our
 
 Here's a (very rough) mockup of our main app:
 
-
+![OpenTransit mockup](mockup.png)
