@@ -10,4 +10,4 @@ We've developed an algorithm to approximate bus arrival times from the raw geolo
 
 ## Running the Example Notebook
 
-The `sample_routes_data_15s.json` file that the example notebook loads is zipped up in `sample_routes_data_15s.rar`, so you'll have to extract it before running the notebook.
+The `sample_routes_data_pst_15s.json` file that the example notebook loads is zipped up in `sample_routes_data_pst_15s.rar`, so you'll have to extract it before running the notebook.
