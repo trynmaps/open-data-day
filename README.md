@@ -90,3 +90,7 @@ to browse, run, and play with our interactive Python notebooks.
 If you want our project to use your code, just make a pull request of your fork! We'll
 review it and incorporate the best submissions into our
 [prototype](https://github.com/trynmaps/metrics-mvp).
+
+# More about OpenTransit
+
+[Check out a (very early-stage) demo of our app!](http://gitpod.io#https://github.com/trynmaps/metrics-mvp)
