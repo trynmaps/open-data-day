@@ -93,4 +93,4 @@ review it and incorporate the best submissions into our
 
 # More about OpenTransit
 
-[Check out a (very early-stage) demo of our app!](http://gitpod.io#https://github.com/trynmaps/metrics-mvp)
+[Check out a (very early-stage) demo of our app!](https://opentransit.herokuapp.com/metrics)
