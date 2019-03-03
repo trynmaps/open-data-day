@@ -109,6 +109,7 @@ review it and incorporate the best submissions into our
 # More about OpenTransit
 
 [Check out a (very early-stage) demo of our app!](https://opentransit.herokuapp.com/metrics)
+[And check out the GitHub repo.](https://github.com/trynmaps/metrics-mvp)
 
 Here's a (very rough) mockup of our main app:
 
