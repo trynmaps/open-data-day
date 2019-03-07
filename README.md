@@ -9,6 +9,10 @@ Your challenge is to clean, analyze, and/or visualize that data and build
 something useful for San Franciscans. And, along the way, we hope you'll
 learn how the whole open data analysis process works
 
+# UPDATE after Open Data Day
+
+Thanks to everyone who participated! We've merged in your pull requests, which are now in the master branch.
+
 # The challenges
 
 We have three challenges for you today, each one very similar to a challenge
